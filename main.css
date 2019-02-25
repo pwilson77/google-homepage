@@ -84,3 +84,13 @@ aside{
 .right{
     float: right;
 }
+
+.description{
+    background-color: #ffffff;
+    border-top: #000000 solid 1px;
+    text-align: left;
+}
+
+.description p{
+    margin: 0 10px;
+}
