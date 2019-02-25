@@ -7,10 +7,39 @@ nav {
 	height: 56px;
 	background-color: #ffffff;
 	box-shadow: 1px 1px 2px #e2d9d9;
+	display: flex;
 }
 
 .logo_menu {
 	height: inherit;
 	width: 20%;
-
+	padding-left: 25px;
 }
+
+.logo_menu i {
+		margin-right: 24px;
+		font-size: 21px;
+}
+
+.logo_menu img {
+	width: 80px;
+	height: auto;
+}
+
+.search_box {
+	display: flex;
+	    padding-top: 13px;
+}
+
+.search_box input {
+	width: 575px;
+	height: 32px;
+}
+
+.search_box button, i {
+	height: 32px;
+	width: 65px;
+	text-align: center;
+	color: #9c9696;
+}
+
