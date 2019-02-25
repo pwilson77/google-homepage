@@ -1,21 +1,16 @@
 body{
     background-color: azure;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    width: 100%;
+    padding: 0px;
 }
 
 nav {
 	width: 100%;
 	height: 56px;
 	background-color: #ffffff;
-<<<<<<< HEAD
 	box-shadow: 1px 1px 2px #e2d9d9;
 	display: flex;
-=======
-    box-shadow: 1px 1px 2px #e2d9d9;
     margin-bottom: 10px;
->>>>>>> 110956c698ae1803ee81d47d563e6e8dd96782c2
 }
 
 .logo_menu {
@@ -51,11 +46,13 @@ nav {
 	color: #9c9696;
 }
 
-<<<<<<< HEAD
-=======
+
+.navbar_buttons {
+	margin-left: 70px;
 }
-.logo_menu .logo{
-    height: 100%;
+
+.navbar_button {
+	margin-left: 30px;
 }
 section{
     color: #000000;
@@ -87,4 +84,3 @@ aside{
 .right{
     float: right;
 }
->>>>>>> 110956c698ae1803ee81d47d563e6e8dd96782c2
