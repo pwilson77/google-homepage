@@ -54,6 +54,9 @@ nav {
 .navbar_button {
 	margin-left: 30px;
 }
+.container{
+    margin: 5px 50px;
+}
 section{
     color: #000000;
     text-align: center;
@@ -61,13 +64,15 @@ section{
 }
 
 aside{
-    float: left;
-    width: 30%;
+    width: 35%;
     background-color: #ffffff;
     height: 500px;
     padding: 10px;
     align-content: center;
     text-align: center;
+}
+aside img{
+    width: 100%;
 }
 
 .video{
@@ -85,12 +90,18 @@ aside{
     float: right;
 }
 
+.title{
+    text-align: left;
+}
 .description{
     background-color: #ffffff;
     border-top: #000000 solid 1px;
     text-align: left;
 }
-
-.description p{
+.views{
+    text-align: left;
+}
+.description-text{
     margin: 0 10px;
+    font-size: 0.9em;
 }
