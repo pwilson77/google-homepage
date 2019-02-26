@@ -49,11 +49,22 @@ nav {
 
 .navbar_buttons {
 	margin-left: 70px;
+	    padding-top: 13px;
 }
 
 .navbar_button {
 	margin-left: 30px;
+	background-color: transparent;
+	border-color: transparent;
+	height: 32px;
+	width: 12px;
+	font-size: larger;
 }
+
+.navbar_button i{
+	color:#4e4a4a;
+}
+
 section{
     color: #000000;
     text-align: center;
