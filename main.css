@@ -2,6 +2,8 @@ body{
     background-color:#ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    width: 100%;
     padding: 0px;
+    overflow-x: hidden;
+    height: auto;
 }
 
 nav {
@@ -165,8 +167,8 @@ aside img{
      border-bottom: #cabebe solid 1px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    height: 145px;
-       margin-top: 20px
+    height: 175px;
+    margin-top: 20px
 }
 .views{
     text-align: left;
@@ -193,10 +195,20 @@ aside img{
 	background-color: red;
 }
 
+.user-image img{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: red;
+}
 .channel-name {
 	width: 60%;
 	height: 48px;
 	padding-left: 15px; 
+}
+
+.channel-image img {
+	    width: inherit;
 }
 .channel-name p:nth-of-type(1){
 	font-size: small;
@@ -246,4 +258,9 @@ aside img{
 .user-desc{
 	color: rgb(56, 54, 54);
 	font-size: 0.9em;
+	margin-left: 20px;
+
+    border-bottom: 1px solid;
+    border-bottom-color: #eeeeee;
+    padding-bottom: 8px;
 }
