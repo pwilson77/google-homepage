@@ -93,7 +93,13 @@ aside img{
 }
 .upnext{
     height: 40px;
+    color: #5d5b5b;
 }
+
+.upnext a {
+	color: #5d5b5b;
+}
+
 .left{
     float: left;
 }
@@ -104,11 +110,22 @@ aside img{
 
 .title{
     text-align: left;
+      padding-top: 14px;
+}
+
+.title h6  {
+	font-weight: 900;
+	color: black;
+	font-family: 'Roboto', sans-serif;
 }
 .description{
-    background-color: #ffffff;
-    border-top: #000000 solid 1px;
+	padding-top: 20px;
+    border-top: #cabebe solid 1px;
+     border-bottom: #cabebe solid 1px;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
+    height: 145px;
+       margin-top: 20px
 }
 .views{
     text-align: left;
@@ -116,4 +133,8 @@ aside img{
 .description-text{
     margin: 0 10px;
     font-size: 0.9em;
+}
+
+.description-text a {
+	color: #5d5b5b;
 }
