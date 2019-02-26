@@ -2,8 +2,6 @@ body{
     background-color:#ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    width: 100%;
     padding: 0px;
-    overflow-x: hidden;
-    height: auto;
 }
 
 nav {
@@ -178,6 +176,7 @@ aside img{
 .description-text{
     margin: 0 10px;
     font-size: 0.9em;
+        margin-left: 55px;
 }
 
 .description-text a {
@@ -237,11 +236,14 @@ aside img{
 
 .comment-space{
 	text-align: left;
+	width: 100%;
+	height: 80px;
 }
 
 .comment-head{
 	font-size: 0.8em;
 	font-weight: bold;
+	text-align: left !important;
 }
 .comment-count{
 	margin-right: 100px;
@@ -258,9 +260,40 @@ aside img{
 .user-desc{
 	color: rgb(56, 54, 54);
 	font-size: 0.9em;
-	margin-left: 20px;
+	    margin-left: 30px;
+}
 
-    border-bottom: 1px solid;
-    border-bottom-color: #eeeeee;
-    padding-bottom: 8px;
+.comment-box {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.comment-box p:nth-of-type(1) {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 0px 0 30px;
+    font-size: small;
+    text-align: left;
+}
+
+.comment-box p:nth-of-type(2) {
+	font-family: 'Roboto', sans-serif;
+	font-size: small;
+    margin: 5px 0px 0 30px;
+    text-align: left;
+}
+
+.user-rating {
+	display: flex;
+	margin-top: 15px;
+	color: rgb(144, 144, 144);
+	    margin-bottom: 40px;
+}
+
+.user-rating span {
+	font-size: small;
+    margin-left: 12px;
+}
+.rating_icon {
+	margin-left:30px;
 }
