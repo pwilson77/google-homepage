@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color:#ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    width: 100%;
     padding: 0px;
 }
@@ -60,6 +60,9 @@ nav {
 	width: 12px;
 	font-size: larger;
 }
+.container{
+    margin: 5px 50px;
+}
 
 .navbar_button i{
 	color:#4e4a4a;
@@ -73,13 +76,15 @@ section{
 }
 
 aside{
-    float: left;
-    width: 30%;
+    width: 35%;
     background-color: #ffffff;
     height: 500px;
     padding: 10px;
     align-content: center;
     text-align: center;
+}
+aside img{
+    width: 100%;
 }
 
 .video{
@@ -95,4 +100,20 @@ aside{
 
 .right{
     float: right;
+}
+
+.title{
+    text-align: left;
+}
+.description{
+    background-color: #ffffff;
+    border-top: #000000 solid 1px;
+    text-align: left;
+}
+.views{
+    text-align: left;
+}
+.description-text{
+    margin: 0 10px;
+    font-size: 0.9em;
 }
