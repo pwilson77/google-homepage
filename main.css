@@ -217,7 +217,7 @@ aside img{
 }
 
 .channel-name p:nth-of-type(2){
-	font-size: small;
+	font-size: smaller;
 	margin-top: 6px;
 }
 
