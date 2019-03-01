@@ -115,7 +115,7 @@ section{
 aside{
     width: 35%;
     background-color: #ffffff;
-    height: 500px;
+    height: auto;
     padding: 10px;
     align-content: center;
     text-align: center;
